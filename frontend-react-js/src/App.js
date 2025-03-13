@@ -17,7 +17,7 @@ import {
 
 // 3/13/25
 import { Amplify } from 'aws-amplify';
-
+/*
 Amplify.configure({
   "AWS_PROJECT_REGION": process.env.REACT_APP_AWS_PROJECT_REGION,
   "aws_cognito_identity_pool_id": process.env.REACT_APP_AWS_COGNITO_IDENTITY_POOL_ID,
@@ -34,7 +34,7 @@ Amplify.configure({
   }
 });
 // 3/13/25
-
+*/
 const router = createBrowserRouter([
   {
     path: "/",
